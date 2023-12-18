@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+div {
+    text-align: center;
+}
+
+html {
+    background-color: rgb(150, 192, 255);
+    font-family: 'Fuzzy Bubbles', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+}
