@@ -1,4 +1,4 @@
-var audio = new Audio('rawr.wav');
+var audio = new Audio('recordings/rawr.wav');
 
 function Dog() {
     $.get( "https://dog.ceo/api/breed/spaniel/cocker/images/random", function( data ) {
