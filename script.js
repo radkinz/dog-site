@@ -14,6 +14,8 @@ function Bark() {
     //grab random bark
     index = getRandomInt(master_bark_list.length - 1)
 
+    console.log(master_bark_list)
+
     master_bark_list[index].play()
     console.log(audio)
 }
