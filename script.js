@@ -2,8 +2,8 @@ var filenames = {'rawr.wav': 'river'}
 var master_bark_list = []
 
 function setup() {
-    names = filenames.keys();
-    for (let i = 0; i < names.keys().length; i++) {
+    names = Object.keys(filenames);
+    for (let i = 0; i < names.length; i++) {
         master_bark_list.push(new Audio('recording/' + names[i]));
     }
 }
