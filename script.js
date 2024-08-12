@@ -4,7 +4,7 @@ var master_bark_list = []
 function setup() {
     names = filenames.keys();
     for (let i = 0; i < names.keys().length; i++) {
-        master_bark_list.push(new Audio(names[i]));
+        master_bark_list.push(new Audio('recording/' + names[i]));
     }
 }
 
