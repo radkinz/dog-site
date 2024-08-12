@@ -9,7 +9,7 @@ function setup() {
 }
 
 var audio = new Audio('recordings/rawr.wav');
-
+setup()
 function Bark() {
     //grab random bark
     index = getRandomInt(master_bark_list.length - 1)
