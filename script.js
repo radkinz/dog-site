@@ -1,6 +1,11 @@
 var filenames = {
     'rawr.wav': 'River', 
-    'Antoniyabark.wav' : 'Antoniya'
+    'Antoniyabark.wav' : 'Antoniya',
+    'Antoniya barkhowl.wav': 'Antoniya',
+    'Cookie bark.wav': 'Dog',
+    'Edisonbarking.wav':'Dog',
+    'Riverbark1':'River',
+    'Riverhowl1.wav': 'River'
 }
 var master_bark_list = []
 
@@ -16,7 +21,7 @@ setup()
 
 
 function change_bark() {
-    return getRandomInt(2)
+    return getRandomInt(9)
 }
 
 function Bark() {
@@ -31,7 +36,7 @@ function checkAnswer(id) {
     console.log(keys, bark_index)
     if (keys[bark_index] == id) {
         alert("You got it right!")
-        change_bark()
+         bark_index = change_bark(master_bark_list.length)
     } else {
         alert("You got it wrong. Try again:(")
     }
