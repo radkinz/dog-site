@@ -25,8 +25,12 @@ function Bark() {
     master_bark_list[bark_index].play()
 }
 
-function checkAnswer(this) {
-    console.log(this.id)
+function checkAnswer(id) {
+    console.log(id)
+    keys = Object.keys(filenames)
+    if (keys[bark_index] == id) {
+        alert("You got it right!")
+    }
 }
 
 function Dog() {
