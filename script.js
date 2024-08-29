@@ -21,7 +21,7 @@ setup()
 
 
 function change_bark() {
-    return getRandomInt(7)
+    return getRandomInt(6)
 }
 
 function Bark() {
@@ -36,7 +36,7 @@ function checkAnswer(id) {
     console.log(keys, bark_index)
     if (keys[bark_index] == id) {
         alert("You got it right!")
-         bark_index = change_bark(master_bark_list.length -1)
+         bark_index = change_bark()
     } else {
         alert("You got it wrong. Try again:(")
     }
