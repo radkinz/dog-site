@@ -1,5 +1,5 @@
 var filenames = {
-    'rawr.wav': 'river', 
+    'rawr.wav': 'River', 
     'Antoniyabark.wav' : 'Antoniya'
 }
 var master_bark_list = []
@@ -23,7 +23,10 @@ function Bark() {
     //grab bark from index
     console.log(master_bark_list, bark_index)
     master_bark_list[bark_index].play()
-    bark_index = change_bark()
+}
+
+function checkAnswer(this) {
+    console.log(this.id)
 }
 
 function Dog() {
