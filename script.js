@@ -16,7 +16,7 @@ setup()
 
 
 function change_bark() {
-    return getRandomInt(master_bark_list.length - 1)
+    return getRandomInt(1)
 }
 
 function Bark() {
