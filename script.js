@@ -1,4 +1,7 @@
-var filenames = {'rawr.wav': 'river'}
+var filenames = {
+    'rawr.wav': 'river', 
+    'Antoniyabark.m4a' : 'Antoniya'
+}
 var master_bark_list = []
 
 function setup() {
