@@ -16,7 +16,7 @@ setup()
 
 
 function change_bark() {
-    return getRandomInt(1)
+    return getRandomInt(2)
 }
 
 function Bark() {
