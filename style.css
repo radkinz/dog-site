@@ -26,3 +26,7 @@ html {
     justify-content: space-evenly;
     font-size: large;
 }
+
+button {
+    font-size: 30px;
+}
