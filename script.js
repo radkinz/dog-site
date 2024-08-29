@@ -11,16 +11,18 @@ function setup() {
     }
 }
 
-var audio = new Audio('recordings/rawr.wav');
+var bark_index = change_bark()
 setup()
+
+
+function change_bark() {
+    return getRandomInt(master_bark_list.length - 1)
+}
+
 function Bark() {
-    //grab random bark
-    index = getRandomInt(master_bark_list.length - 1)
-
-    console.log(master_bark_list)
-
-    master_bark_list[index].play()
-    console.log(audio)
+    //grab bark from index
+    master_bark_list[bark_index].play()
+    print(master_bark_list)
 }
 
 function Dog() {
