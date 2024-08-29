@@ -17,3 +17,8 @@ html {
 
     font-family: 'Lato', sans-serif;
 }
+
+#grid {
+    display: flex;
+    align-items: center;
+}

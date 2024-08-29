@@ -3,9 +3,10 @@ var filenames = {
     'Antoniyabark.wav' : 'Antoniya',
     'Antoniya barkhowl.wav': 'Antoniya',
     'Cookie bark.wav': 'Dog',
+    'dog.wav':'Dog',
     'EdisonBarking.wav':'Dog',
     'Riverbark1.wav':'River',
-    'Riverhowl1.wav': 'River'
+    'Riverhowl1.wav': 'River',
 }
 var master_bark_list = []
 
@@ -21,7 +22,7 @@ setup()
 
 
 function change_bark() {
-    return getRandomInt(6)
+    return getRandomInt(7)
 }
 
 function Bark() {
