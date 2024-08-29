@@ -1,6 +1,6 @@
 var filenames = {
     'rawr.wav': 'river', 
-    'Antoniyabark.m4a' : 'Antoniya'
+    'Antoniyabark.wav' : 'Antoniya'
 }
 var master_bark_list = []
 
