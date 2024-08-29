@@ -21,9 +21,9 @@ function change_bark() {
 
 function Bark() {
     //grab bark from index
+    console.log(master_bark_list, bark_index)
     master_bark_list[bark_index].play()
     bark_index = change_bark()
-    console.log(master_bark_list)
 }
 
 function Dog() {
