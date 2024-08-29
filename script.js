@@ -3,8 +3,8 @@ var filenames = {
     'Antoniyabark.wav' : 'Antoniya',
     'Antoniya barkhowl.wav': 'Antoniya',
     'Cookie bark.wav': 'Dog',
-    'Edisonbarking.wav':'Dog',
-    'Riverbark1':'River',
+    'EdisonBarking.wav':'Dog',
+    'Riverbark1.wav':'River',
     'Riverhowl1.wav': 'River'
 }
 var master_bark_list = []
