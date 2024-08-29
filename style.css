@@ -21,4 +21,5 @@ html {
 #grid {
     display: flex;
     align-items: center;
+    background-color: black;
 }

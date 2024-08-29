@@ -17,12 +17,15 @@ function setup() {
     }
 }
 
-var bark_index = change_bark()
+var bark_index = getRandomInt(7)
 setup()
 
 
 function change_bark() {
-    return getRandomInt(7)
+    temp = bark_index
+    while (temp === bark_index) {
+        bark_index = getRandomInt(7);
+    }
 }
 
 function Bark() {
@@ -37,7 +40,7 @@ function checkAnswer(id) {
     console.log(keys, bark_index)
     if (keys[bark_index] == id) {
         alert("You got it right!")
-         bark_index = change_bark()
+        change_bark()
     } else {
         alert("You got it wrong. Try again:(")
     }
