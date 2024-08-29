@@ -28,6 +28,7 @@ function Bark() {
 function checkAnswer(id) {
     console.log(id)
     keys = Object.values(filenames)
+    console.log(keys, bark_index)
     if (keys[bark_index] == id) {
         alert("You got it right!")
         change_bark()
